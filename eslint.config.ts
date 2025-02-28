@@ -1,5 +1,3 @@
 import createConfig from '@imba97/eslint-config'
 
-export default createConfig({
-  type: 'lib'
-})
+export default createConfig()

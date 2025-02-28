@@ -4,6 +4,7 @@
 .project
 .settings
 .tmproj
+.eslintcache
 
 .svn
 .idea

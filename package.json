@@ -14,13 +14,15 @@
     "url": "https://github.com/bsr-project/mission-crawler/issues"
   },
   "scripts": {
+    "start": "esno src/entry.ts",
     "lint": "eslint --cache",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "fs-extra": "^11.3.0"
+    "fs-extra": "^11.3.0",
+    "tinyexec": "^0.3.2"
   },
   "devDependencies": {
     "@imba97/eslint-config": "^0.0.5",

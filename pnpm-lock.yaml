@@ -17,6 +17,9 @@ importers:
       fs-extra:
         specifier: ^11.3.0
         version: 11.3.0
+      tinyexec:
+        specifier: ^0.3.2
+        version: 0.3.2
     devDependencies:
       '@imba97/eslint-config':
         specifier: ^0.0.5
